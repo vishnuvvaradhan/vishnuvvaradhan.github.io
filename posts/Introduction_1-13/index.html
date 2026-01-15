@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Introduction - January 13</title>
+    <title>Introduction</title>
+    <style>
+      body { font-family: sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
+      .container { display: flex; gap: 60px; }
+      nav { min-width: 120px; }
+      nav a { display: block; margin-bottom: 10px; text-decoration: none; color: #000; }
+      nav a:hover { text-decoration: underline; }
+      .content { flex: 1; }
+      article h1 { margin-top: 0; }
+    </style>
   </head>
 
   <body>
-    <main>
+    <div class="container">
       <nav>
-        <a href="/">Home</a> | <a href="/posts/">Posts</a>
+        <a href="/">About</a>
+        <a href="/posts/">Writing</a>
+        <a href="https://www.linkedin.com/in/vishnu-varadhan-037286284/">LinkedIn</a>
+        <a href="https://github.com/vishnuvvaradhan">GitHub</a>
       </nav>
 
-      <article>
-        <h1>Introduction - January 13</h1>
-        
-        <p>
-          This is my first entry into my blog, I will be posting about: Math questions I find interesting, cool/products + startups, and my work
-        </p>
-      </article>
-    </main>
+      <div class="content">
+        <article>
+          <h1>Introduction</h1>
+          
+          <p>
+            This is my first entry into my blog, I will be posting about: Math questions I find interesting, cool/products + startups, and my work.
+          </p>
+        </article>
+      </div>
+    </div>
   </body>
 </html>

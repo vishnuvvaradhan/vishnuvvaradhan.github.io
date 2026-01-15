@@ -2,29 +2,48 @@
 <html>
   <head>
     <title>Vishnu Varadhan</title>
+    <meta charset="UTF-8">
+    <style>
+      body { font-family: sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
+      .container { display: flex; gap: 60px; }
+      nav { min-width: 120px; }
+      nav a { display: block; margin-bottom: 10px; text-decoration: none; color: #000; }
+      nav a:hover { text-decoration: underline; }
+      .content { flex: 1; }
+      .post-list { list-style: none; padding: 0; }
+      .post-list li { display: flex; justify-content: space-between; margin-bottom: 8px; }
+      .post-date { color: #666; }
+    </style>
   </head>
 
   <body>
-    <main>
-      <h1>Vishnu Varadhan</h1>
-
-      <p>
-        Hi — I’m a current student at NYU majoring in Computer Science and Mathematics.
-        I previously worked at Ripple as an Applied Scientist and Software Engineer, and conducted NLP research at the University of Maine on a privacy framework called Prigen.
-
-        I’m interested in web3 and blockchain systems, quantitative finance (quantitative development), soccer, MMA, and related topics.
-
-        I write here to think in public. Feel free to read the posts below or reach out at vjv7099@nyu.edu
-      </p>
-
-      <p>
-        <a href="/posts/">Posts</a>
-      </p>
-
-      <p>
-        <a href="https://www.linkedin.com/in/vishnu-varadhan-037286284/">LinkedIn</a> | 
+    <div class="container">
+      <nav>
+        <a href="/">About</a>
+        <a href="/posts/">Writing</a>
+        <a href="https://www.linkedin.com/in/vishnu-varadhan-037286284/">LinkedIn</a>
         <a href="https://github.com/vishnuvvaradhan">GitHub</a>
-      </p>
-    </main>
+      </nav>
+
+      <div class="content">
+        <h1>Vishnu Varadhan</h1>
+
+        <p>
+          Hi! I'm a current student at NYU majoring in Computer Science and Mathematics.
+        </p>
+
+        <p>
+          I previously worked at Ripple as an Applied Scientist and Software Engineer, and conducted NLP research at the University of Maine on a privacy framework called Prigen.
+        </p>
+
+        <p>
+          I'm interested in web3 and blockchain systems, quantitative finance, soccer, MMA, and related topics.
+        </p>
+
+        <p>
+          I write here to think in public. Feel free to read the posts or reach out at vjv7099@nyu.edu
+        </p>
+      </div>
+    </div>
   </body>
 </html>
